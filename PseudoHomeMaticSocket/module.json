@@ -1,0 +1,20 @@
+{ 
+ 	"id": "{2E04793C-24EB-4FC9-B405-C2723BD06E8C}", 
+ 	"name": "PseudoHomeMaticSocket" ,
+ 	"type": 1, 
+ 	"vendor": "Tobias WW - Pseudo HomeMatic", 
+ 	"aliases":  
+ 	[ 
+ 		"Pseudo HomeMatic Socket" 
+ 	], 
+ 	"parentRequirements": [ ], 
+ 	"childRequirements": 
+	[ 
+		"{98FEC99D-6AD9-4598-8F50-2976DA0A32C8}"
+	], 
+ 	"implemented": 
+	[ 
+		"{75B6B237-A7B0-46B9-BBCE-8DF0CFE6FA52}"#
+	], 
+ 	"prefix": "HMPseudoSocket"
+}
