@@ -1,7 +1,7 @@
 { 
  	"id": "{F7A9F004-3856-4431-A579-E68D053A7DAE}", 
  	"name": "PseudoHomeMaticDevice" ,
- 	"type": 1, 
+ 	"type": 3, 
  	"vendor": "Tobias WW - Pseudo HomeMatic", 
  	"aliases":  
  	[ 
