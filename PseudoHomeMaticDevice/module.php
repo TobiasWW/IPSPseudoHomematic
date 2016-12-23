@@ -38,7 +38,7 @@
 		{
 			IPS_LogMessage(__CLASS__ . "." . __FUNCTION__, $JSONString);
 			$res = $this->SendDataToParent($JSONString);
-			IPS_LogMessage(__CLASS__ . "." . __FUNCTION__, "Result: " . v_dump($res));
+			IPS_LogMessage(__CLASS__ . "." . __FUNCTION__, "Result: " . $this->v_dump($res));
 		}
     }
 ?>
