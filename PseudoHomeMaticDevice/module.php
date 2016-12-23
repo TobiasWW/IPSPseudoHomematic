@@ -34,7 +34,7 @@
 			IPS_LogMessage(__CLASS__ . "." . __FUNCTION__, $JSONString);
 		}
 		
-		public function SendeDaten($JSONString)
+		public function SendeDaten(string $JSONString)
 		{
 			IPS_LogMessage(__CLASS__ . "." . __FUNCTION__, $JSONString);
 			$res = $this->SendDataToParent($JSONString);
