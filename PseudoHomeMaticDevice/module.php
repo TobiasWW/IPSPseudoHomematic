@@ -6,10 +6,10 @@
             $content = "IST NULL";
             if (isset($mixed))
             {
-                    ob_start();
-                    var_dump($mixed);
-                    $content = ob_get_contents();
-                    ob_end_clean();
+                ob_start();
+                var_dump($mixed);
+                $content = ob_get_contents();
+                ob_end_clean();
             }
             return $content;
         }
@@ -24,7 +24,6 @@
             parent::Create();
             
             //Kompatibilität mit HomeMatic Configurator
-            
             $this->RegisterPropertyInteger("Protocol", 0);
             $this->RegisterPropertyString("Address", "");
         }
