@@ -24,6 +24,7 @@
             parent::Create();
             
             //Kompatibilität mit HomeMatic Configurator
+            
             $this->RegisterPropertyInteger("Protocol", 0);
             $this->RegisterPropertyString("Address", "");            
         }
